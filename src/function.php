@@ -70,3 +70,12 @@ function task3($cols, $rows)
     }
     echo "</table>";
 }
+
+/**
+ * @return void
+ */
+function task4()
+{
+    echo date('d.m.Y h:i');
+    echo mktime(0, 0, 0, 2, 24, 2016);
+}
