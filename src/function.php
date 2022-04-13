@@ -52,3 +52,21 @@ function task2()
     }
     echo $res;
 }
+
+/**
+ * @param $cols
+ * @param $rows
+ * @return void
+ */
+function task3($cols, $rows)
+{
+    for ($tr = 1; $tr <= $rows; $tr ++) {
+        echo "<table style='align-content: center; border-spacing: 5px'>";
+        echo "<tr>";
+        for($td = 1; $td <= $cols; $td++) {
+                echo "<td>" .$tr * $td."</td>";
+        }
+        echo "</tr>";
+    }
+    echo "</table>";
+}
