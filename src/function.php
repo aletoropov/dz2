@@ -88,3 +88,11 @@ function task5()
     $str2 = 'Две бутылки лимонада';
     echo str_replace('Две', 'Три', $str2);
 }
+
+function task6()
+{
+    $file = 'file.txt';
+    $text = "Hello again";
+
+    file_put_contents($file, $text);
+}

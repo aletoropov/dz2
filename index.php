@@ -9,3 +9,5 @@ task3(5, 10);
 task4();
 
 task5();
+
+task6();
