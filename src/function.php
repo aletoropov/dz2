@@ -79,3 +79,12 @@ function task4()
     echo date('d.m.Y h:i');
     echo mktime(0, 0, 0, 2, 24, 2016);
 }
+
+function task5()
+{
+    $str = 'Карл у Клары украл Кораллы';
+    echo mb_strtolower($str);
+
+    $str2 = 'Две бутылки лимонада';
+    echo str_replace('Две', 'Три', $str2);
+}
