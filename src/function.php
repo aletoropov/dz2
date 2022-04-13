@@ -96,3 +96,8 @@ function task6()
 
     file_put_contents($file, $text);
 }
+
+function task7($file)
+{
+    echo file_get_contents($file);
+}
